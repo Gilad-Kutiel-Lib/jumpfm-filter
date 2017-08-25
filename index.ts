@@ -7,7 +7,7 @@ export const load = (jumpFm: JumpFm) => {
         )
 
         panel.bind('clearFilter', ['esc'], () => {
-            panel.filterBox.clear()
+            panel.filterBox.set('')
             panel.filterRemove('filter')
         })
 
