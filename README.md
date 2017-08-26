@@ -1,1 +1,1 @@
-A JumpFm plugin that filters files.
+A [JumpFm](http://jumpfm.org/) plugin that filters files.
