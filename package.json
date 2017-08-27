@@ -1,7 +1,7 @@
 {
   "name": "jumpfm-filter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A [JumpFm](http://jumpfm.org/) plugin that filters files.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,17 @@
   "license": "ISC",
   "devDependencies": {
     "jumpfm-api": "^1.0.0"
-  }
+  },
+  "dependencies": {
+    "jumpfm-api": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumpFm/jumpfm-filter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JumpFm/jumpfm-filter/issues"
+  },
+  "homepage": "https://github.com/JumpFm/jumpfm-filter#readme"
 }
