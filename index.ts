@@ -18,7 +18,11 @@ export const load = (jumpFm: JumpFm) => {
                 panel.filterRemove('filter')
                 return
             }
-            panel.filterSet('filter', item => item.name.indexOf(pattern) >= 0)
+
+            panel.filterSet('filter', item =>
+                item.name
+                    .toLowerCase()
+                    .indexOf(pattern.toLowerCase()) >= 0)
         })
     })
 }
