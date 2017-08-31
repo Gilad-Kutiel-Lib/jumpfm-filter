@@ -1,6 +1,6 @@
 {
   "name": "jumpfm-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A [JumpFm](http://jumpfm.org/) plugin that filters files.",
   "main": "index.js",
   "scripts": {
